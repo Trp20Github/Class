@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student </title>
+
+</head>
+<body>
+<header><h1>Student View</h1></header>
+<h1>{{ object.student_name }}</h1>
+<table border="1">
+  <tr>Student Name:{{ object.student_name }}</tr><br><br>
+  <tr>Image:<img src="{{ object.image.url }}" width="100px" height="100px"></tr><br><br>
+  <tr>Date Of Birth:{{ object.dob }}</tr><br><br>
+  <tr>Email Id:{{ object.email }}</tr><br><br>
+  <tr>Maths:{{ object.maths_score }}</tr><br><br>
+  <tr>Physics:{{ object.Physics_score }}</tr><br><br>
+  <tr>Chemistry:{{ object.Chemistry_score }}</tr><br><br>
+</table>
+</body>
+</html>
